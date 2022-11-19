@@ -7,5 +7,5 @@ Maintain by. MSF
 import IndonesiaLatestEarthQuakeAlert
 
 if __name__ == '__main__':
-    result = data_extraction()
-    show_data(result)
+    result = IndonesiaLatestEarthQuakeAlert.data_extraction()
+    IndonesiaLatestEarthQuakeAlert.show_data(result)
